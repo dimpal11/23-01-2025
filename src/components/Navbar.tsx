@@ -37,13 +37,13 @@ function Navbar() {
 
           {/* desktop menu */}
           <div className="hidden md:flex lg:space-x-6 md:space-x-4 items-center">
-            <a href="#" className="uppercase text-xs font-bold">
+            <a href="#" className="uppercase text-xs Inter font-bold ">
               Home
             </a>
 
             <a
               href="#"
-              className="hover:text-[#E6A371] uppercase text-xs items-center font-bold flex gap-2"
+              className="hover:text-[#E6A371] uppercase Inter text-xs items-center font-bold flex gap-2"
             >
               Product
               <span>
@@ -52,19 +52,19 @@ function Navbar() {
             </a>
             <a
               href="#"
-              className="hover:text-[#E6A371] uppercase text-xs flex-shrink-0 whitespace-nowrap font-bold"
+              className="hover:text-[#E6A371] uppercase Inter text-xs flex-shrink-0 whitespace-nowrap font-bold"
             >
               About us
             </a>
 
-            <button className="bg-[#FE434C] text-white py-2 px-4 rounded-sm text-sm uppercase flex-shrink-0 whitespace-nowrap font-bold">
+            <button className="bg-[--bg-color] font14 Inter text-white py-2 px-4 rounded-sm text-sm uppercase  font-bold">
               Contact Us
             </button>
           </div>
         </div>
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 z-20 right-0 h-full w-64 bg-[#F6F7FB] text-white transform ${
+          className={`fixed top-0 z-20 right-0 h-full w-64 bg-[#F6F7FB] text-black transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
@@ -76,24 +76,13 @@ function Navbar() {
             <XMarkIcon className="h-5 w-5" />
           </button>
           <nav className="mt-16 space-y-4 grid p-5">
-            <a href="#" className="text-[#E6A371] uppercase text-xs font-bold">
+            <a href="#" className="uppercase text-xs Inter font-bold ">
               Home
             </a>
+
             <a
               href="#"
-              className="hover:text-[#E6A371] text-black uppercase text-xs font-bold"
-            >
-              Features
-            </a>
-            <a
-              href="#"
-              className="hover:text-[#E6A371] text-black uppercase text-xs font-bold"
-            >
-              About Us
-            </a>
-            <a
-              href="#"
-              className="hover:text-[#E6A371] uppercase text-black text-xs font-bold flex gap-2"
+              className="hover:text-[#E6A371] uppercase Inter text-xs items-center font-bold flex gap-2"
             >
               Product
               <span>
@@ -102,15 +91,13 @@ function Navbar() {
             </a>
             <a
               href="#"
-              className="hover:text-[#E6A371] uppercase text-xs font-bold text-black"
+              className="hover:text-[#E6A371] uppercase Inter text-xs flex-shrink-0 whitespace-nowrap font-bold"
             >
-              Contact Us
+              About us
             </a>
-            <button className="text-sm border border-black rounded py-2 text-black px-4 font-bold">
-              LOG IN
-            </button>
-            <button className="bg-[#E6A371] text-white py-2 px-4 rounded-sm text-sm uppercase font-bold">
-              Get Started
+
+            <button className="bg-[--bg-color] font14 Inter text-white py-2 px-4 rounded-sm text-sm uppercase  font-bold">
+              Contact Us
             </button>
           </nav>
         </div>

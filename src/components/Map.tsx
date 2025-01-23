@@ -8,17 +8,17 @@ function Map() {
   return (
     <>
       {/* Map Section */}
-      <div className="mt-16 relative bg-[#273252] mx-4 lg:mx-10 py-8">
+      <div className=" margintop  lg:mt-96 relative bg-[#273252] mx-4 lg:mx-10 py-8">
         {/* <h2 className="text-3xl font-bold text-center text-red-500 mb-8">
           OUR LOCATION
         </h2> */}
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-8 lg:space-y-0">
             <div>
-              <h3 className="text-white max-w-96 font-extrabold text-5xl ">
+              <h3 className="text-white max-w-96 font-extrabold Montserrat font48">
                 Have an amazing Start Let’s talk
               </h3>
-              <button className="text-white font-bold text-sm bg-[#FE434C] mt-10 h-[45px] w-[120px]">
+              <button className="text-white font-bold font14 bg-[--bg-color] rounded Inter mt-10 h-[45px] w-[120px]">
                 GET STARTED
               </button>
             </div>

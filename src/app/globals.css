@@ -3,24 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --text-color: #fe434c;
+  --bg-color: #fe434c;
+  --footer-text: #273252;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --buttoncolor: #fe434c;
-    /* --background: #0a0a0a;
-    --foreground: #ededed; */
-  }
+* {
+  font-family: "Montserrat", serif;
+  font-family: "Inter", serif;
+  font-family: "Outfit", serif;
 }
 
-body {
-  /* color: var(--foreground);
-  background: var(--background); */
-  /* font-family: Arial, Helvetica, sans-serif; */
+.Montserrat {
+  font-family: "Montserrat", serif;
+}
+.Inter {
   font-family: "Inter", serif;
 }
-/* nav button {
-  background: var(--buttoncolor);
-} */
+.Outfit {
+  font-family: "Outfit", serif;
+}
+.font12 {
+  font-size: 12px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font32 {
+  font-size: 32px;
+}
+.font48 {
+  font-size: 48px;
+}
+.margintop {
+  margin-top: 68rem;
+}
+.margintop56 {
+  margin-top: 56rem;
+}
+
+.bgImage {
+  background-image: url("../Image/contactbg.svg");
+}
