@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
       {/* Contact Section */}
-      <section className="relative pb-12 container mx-auto ">
+      <section className="relative pb-12   ">
         <div className="relative w-full h-64  sm:h-56 md:h-64 lg:h-72 bg-cover bg-center bgImage">
           <div className="relative container mx-auto px-4 lg:flex lg:items-center lg:justify-between text-white">
             {/* Left Section - Contact Details destop */}
@@ -62,7 +62,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="lg:w-1/2 lg:mr-[70px] max-w-[500px] bg-white border border-[#E1E4EA] lg:px-[50px] p-8 rounded-lg shadow-lg md:mt-28 lg:mt-8 relative top-[10px] md:mx-auto">
+            <div className="lg:w-1/2 lg:mr-[70px] max-w-[500px] bg-white border border-[#E1E4EA] lg:px-[50px] p-8 rounded-lg shadow-lg md:mt-28 lg:mt-8 relative top-[10px] md:mx-auto mb-[30px]">
               <h3 className="text-2xl font-bold text-[--text-color] mb-4 Montserrat">
                 GET IN TOUCH!
               </h3>
@@ -74,27 +74,27 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Full Name"
-                  className="w-full p-3 border text-xs border-[#273252]"
+                  className="w-full p-3 border text-black text-xs border-[#273252] outline-none"
                 />
                 <input
                   type="email"
                   placeholder="Email ID"
-                  className="w-full p-3 border text-xs border-[#273252]"
+                  className="w-full p-3 border text-xs border-[#273252] outline-none text-black"
                 />
                 <input
                   type="email"
                   placeholder="Phone Number"
-                  className="w-full p-3 border text-xs border-[#273252]"
+                  className="w-full p-3 border text-xs border-[#273252] outline-none text-black"
                 />
                 <input
                   type="email"
                   placeholder="Subject"
-                  className="w-full p-3 border text-xs border-[#273252]"
+                  className="w-full p-3 border text-xs border-[#273252] outline-none text-black"
                 />
                 <textarea
                   // type="email"
                   placeholder="type a Message"
-                  className="w-full p-3 border text-xs border-[#273252] h-32  "
+                  className="w-full p-3 border text-xs border-[#273252] h-32 outline-none text-black"
                 />
 
                 <div className="md:flex md:justify-between mt-7">

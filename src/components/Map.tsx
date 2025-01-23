@@ -15,7 +15,7 @@ function Map() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-8 lg:space-y-0">
             <div>
-              <h3 className="text-white max-w-96 font-extrabold Montserrat font48">
+              <h3 className="text-white text-3xl max-w-96 font-extrabold Montserrat font48 leading-[60px]">
                 Have an amazing Start Let’s talk
               </h3>
               <button className="text-white font-bold font14 bg-[--bg-color] rounded Inter mt-10 h-[45px] w-[120px]">
