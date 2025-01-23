@@ -6,6 +6,8 @@
   --text-color: #fe434c;
   --bg-color: #fe434c;
   --footer-text: #273252;
+  --bg-body: #e9ebee;
+  --border: #e1e4ea;
 }
 
 * {
@@ -38,16 +40,25 @@
 .font32 {
   font-size: 32px;
 }
+.font28 {
+  font-size: 28px;
+}
 .font48 {
   font-size: 48px;
 }
-.margintop {
-  margin-top: 60rem;
+.margintop64 {
+  margin-top: 64rem;
 }
-.margintop56 {
-  margin-top: 56rem;
+.margintop {
+  margin-top: 24rem;
+}
+.margintop58 {
+  margin-top: 58rem;
 }
 
 .bgImage {
   background-image: url("../Image/contactbg.svg");
+  background-size: cover; /* Ensures the image fits properly */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
 }
