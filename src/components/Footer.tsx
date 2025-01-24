@@ -13,7 +13,7 @@ function Footer() {
             <div className="w-[200px] lg:w-[264px] pt-[18px] pr-[18px] pb-[18px]">
               <Image src={footer} alt="logo"></Image>
             </div>
-            <p className="text-justify font-normal max-w-[456px] mt-4 md:mt-0 Montserrat font16">
+            <p className="text-justify font-normal max-w-[456px] mt-4 md:mt-0 Montserrat text-font16">
               Lorem ipsum dolor sit amet consectetur. Tristique sociis nunc amet
               erat. Aenean magna lectus viverra eros nullam at ac. Et auctor
               massa tellus vestibulum. Posuere facilisis sed nunc elementum
@@ -23,11 +23,11 @@ function Footer() {
 
           {/* Right side */}
           <div className="p-[20px] lg:p-[40px] flex flex-col items-center md:items-end w-full md:w-1/2">
-            <div>
-              <h3 className="text-[20px] Inter text-center md:text-right font-black uppercase mb-4 lg:font32">
+            <div className="md:p-3">
+              <h3 className="text-[20px] md:text-[26px] Inter text-center md:text-right font-black uppercase md:mb-8 lg:mb-0 lg:text-[42px]">
                 Subscribe Our Latest Newsletter
               </h3>
-              <form className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 w-full justify-center md:justify-end">
+              <form className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 w-full justify-center md:justify-end md:mb-[34px] lg:mb-[26px]">
                 <input
                   type="email"
                   placeholder="Email"
@@ -35,7 +35,7 @@ function Footer() {
                 />
                 <button
                   type="submit"
-                  className="bg-[--bg-color] uppercase font14 font-bold w-full md:w-auto px-6 py-2 text-white"
+                  className="bg-[--bg-color] uppercase text-font14 font-bold w-full md:w-auto px-6 py-2 text-white"
                 >
                   Subscribe
                 </button>
@@ -79,12 +79,12 @@ function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-center mx-auto px-4 lg:px-20 py-5 container space-y-4 lg:space-y-0">
           {/* left side */}
           <div className="text-center lg:text-left">
-            <p className="text-[--footer-text] font16 font-normal Outfit">
+            <p className="text-[--footer-text] text-font16 font-normal Outfit">
               ©2025 All Rights Reserved a registered trademark.{" "}
             </p>
           </div>
           {/* right side */}
-          <p className="Outfit font16 font-normal">
+          <p className="Outfit text-font16 font-normal">
             <span className="text-[--text-color]"> Privacy</span> | Terms |
             Legal{" "}
           </p>

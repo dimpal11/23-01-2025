@@ -16,10 +16,10 @@ function Map() {
           <div className="container mx-auto px-4 lg:px-8">
             <div className="flex flex-col md:flex-row items-center justify-between md:space-y-8 lg:space-y-0">
               <div>
-                <h3 className="text-white md:max-w-72 lg:max-w-96 font-extrabold Montserrat md:text-2xl lg:font48 leading-9 md:leading-[60px]">
+                <h3 className="text-white md:max-w-72 lg:max-w-96 font-extrabold Montserrat text-[26px] md:text-[30px] lg:text-[48px] leading-9 md:leading-[60px]">
                   Have an amazing Start Let’s talk
                 </h3>
-                <button className="text-white font-bold font14 bg-[--bg-color] rounded Inter mt-5 md:mt-10 h-[45px] w-[120px]">
+                <button className="text-white font-bold text-font14 bg-[--bg-color] rounded Inter mt-5 md:mt-10 h-[45px] w-[120px]">
                   GET STARTED
                 </button>
               </div>

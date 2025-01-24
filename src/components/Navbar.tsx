@@ -57,7 +57,7 @@ function Navbar() {
               About us
             </a>
 
-            <button className="bg-[--bg-color] font14 Inter text-white py-2 px-4 rounded-sm text-sm uppercase  font-bold">
+            <button className="bg-[--bg-color] lext-font14 Inter text-white py-2 px-4 rounded-sm text-sm uppercase  font-bold">
               Contact Us
             </button>
           </div>

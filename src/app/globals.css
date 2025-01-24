@@ -37,25 +37,19 @@
 .font20 {
   font-size: 20px;
 }
+.font26 {
+  font-size: 26px;
+}
 .font32 {
   font-size: 32px;
 }
-.font28 {
-  font-size: 28px;
-}
+
 .font48 {
   font-size: 48px;
 }
-.margintop64 {
-  margin-top: 64rem;
+.marginleft {
+  margin-left: 35px;
 }
-.margintop {
-  margin-top: 24rem;
-}
-.margintop58 {
-  margin-top: 58rem;
-}
-
 .bgImage {
   background-image: url("../Image/contactbg.svg");
   background-size: cover; /* Ensures the image fits properly */
