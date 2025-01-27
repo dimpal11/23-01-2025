@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import product from "@/app/Product/Image/product.svg";
+// import Image from "next/image";
+// import product from "@/app/Product/Image/product.svg";
 
 function TDP() {
   return (
