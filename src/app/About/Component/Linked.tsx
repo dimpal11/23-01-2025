@@ -4,7 +4,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; // Correct Import
 import "swiper/css";
-
 import Image from "next/image";
 import Linkedin from "@/app/About/Image/linkedin_logo.svg.svg";
 

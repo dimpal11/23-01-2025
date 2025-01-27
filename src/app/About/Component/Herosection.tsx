@@ -1,5 +1,4 @@
 import React from "react";
-
 import Image from "next/image";
 import Hand from "@/app/About/Image/handimage.svg";
 

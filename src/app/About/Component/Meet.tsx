@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import textlogo from "@/app/About/Image/textlogo.svg";
 import meet1 from "@/app/About/Image/meet1.svg";
 import meet2 from "@/app/About/Image/meet2.svg";
