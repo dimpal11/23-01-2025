@@ -29,7 +29,6 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      {/* `inter.className` को body में शामिल करें */}
       <body>{children}</body>
     </html>
   );

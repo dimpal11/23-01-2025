@@ -8,6 +8,8 @@
   --footer-text: #273252;
   --bg-body: #e9ebee;
   --border: #e1e4ea;
+  --About-bg: #dddddd;
+  /* #E9EBEE */
 }
 
 * {
@@ -52,6 +54,13 @@
 }
 .bgImage {
   background-image: url("../Image/contactbg.svg");
+  background-size: cover; /* Ensures the image fits properly */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
+}
+
+.herobgImage {
+  background-image: url("./About/Image/backgraundImage.svg");
   background-size: cover; /* Ensures the image fits properly */
   background-position: center; /* Centers the image */
   overflow: hidden;
